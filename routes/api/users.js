@@ -11,7 +11,7 @@ const { check, validationResult } = require("express-validator");
 //bring in user model
 const User = require("../../models/User");
 
-//@route  GET api/users
+//@route  POST api/users
 //@desc   Register user
 //@access Public
 
